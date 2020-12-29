@@ -8,7 +8,7 @@
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
     "generate": "json-server ./db/generate.js",
-    "test": "npm-run-all -p serve servevue"
+    "start": "npm-run-all -p serve servevue"
   },
   "dependencies": {
     "core-js": "^3.6.5",
