@@ -1,6 +1,14 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <h1>Welcome to Your Vue.js App</h1>
+  <div class="mx-auto p-6 bg-gray-200">
+    <simple-list />
   </div>
 </template>
+
+<script>
+import SimpleList from "@/components/SimpleList";
+export default {
+  components: {
+    SimpleList
+  }
+};
+</script>
